@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+*.db
+*.sqlite
+*.sqlite3
+backups/*
+!backups/.gitkeep
+data/*
+!data/.gitkeep
+.pytest_cache/
+.coverage
+# Historical single-file versions, excluded from the public portfolio for now
+reference/
